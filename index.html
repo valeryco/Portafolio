@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valeria | Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="min-h-screen bg-gradient-to-br from-sky-200 to-blue-500 font-sans text-slate-200 antialiased">
+
+  <!-- Menú: lateral en escritorio, barra inferior en celular -->
+  <nav aria-label="Principal" class="fixed z-50 bottom-3 inset-x-4 flex flex-row justify-around rounded-full bg-[#0b1426] p-2 shadow-[0_0_25px_rgba(29,155,240,.45)] md:inset-x-auto md:left-6 md:top-1/2 md:bottom-auto md:-translate-y-1/2 md:flex-col md:gap-4 md:p-3">
+    <a href="#inicio" aria-label="Inicio" class="grid h-11 w-11 place-items-center rounded-full bg-blue-500 text-lg shadow-[0_0_15px_#1d9bf0] hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white">🏠</a>
+    <a href="#habilidades" aria-label="Habilidades" class="grid h-11 w-11 place-items-center rounded-full text-lg hover:bg-blue-500/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white">💼</a>
+    <a href="#proyectos" aria-label="Proyectos" class="grid h-11 w-11 place-items-center rounded-full text-lg hover:bg-blue-500/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white">📁</a>
+    <a href="#formacion" aria-label="Formación" class="grid h-11 w-11 place-items-center rounded-full text-lg hover:bg-blue-500/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white">🎓</a>
+    <a href="#contacto" aria-label="Contacto" class="grid h-11 w-11 place-items-center rounded-full text-lg hover:bg-blue-500/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-white">✉️</a>
+  </nav>
+
+  <main class="mx-auto max-w-5xl space-y-6 px-4 pb-28 pt-6 md:pb-10 md:pl-28 md:pr-6">
+
+    <!-- Inicio -->
+    <header id="inicio" class="relative overflow-hidden rounded-3xl bg-[#0b1426] px-6 py-14 text-center shadow-2xl">
+      <span aria-hidden="true" class="pointer-events-none absolute left-1/2 top-1/3 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-600/30 blur-3xl"></span>
+      <figure class="relative mx-auto grid h-32 w-32 place-items-center rounded-full bg-gradient-to-br from-blue-500 via-cyan-400 to-indigo-700 text-6xl font-bold text-white shadow-[0_0_40px_rgba(29,155,240,.6)]">V</figure>
+      <h1 class="relative mt-6 text-5xl font-bold text-white md:text-6xl">Hola, soy <span class="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">Valeria</span></h1>
+      <p class="relative mt-3 text-2xl font-light text-cyan-300">Ingeniera Biológica y estudiante de desarrollo de software</p>
+      <p class="relative mx-auto mt-5 max-w-xl text-sm text-slate-300">Transformo datos en ideas y construyo soluciones digitales. Me apasiona aprender, resolver problemas y crear tecnología con propósito.</p>
+      <p class="relative mt-8 flex flex-wrap justify-center gap-3">
+        <a href="#proyectos" class="rounded-full bg-gradient-to-r from-blue-600 to-sky-400 px-6 py-2.5 text-sm font-semibold text-white shadow-[0_0_20px_rgba(29,155,240,.5)] hover:brightness-110">Ver mis proyectos</a>
+        <a href="#" class="rounded-full border border-slate-500 px-6 py-2.5 text-sm font-semibold hover:border-sky-400 hover:text-sky-300">Descargar CV</a>
+      </p>
+    </header>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="relative overflow-hidden rounded-3xl bg-[#0b1426] p-8 shadow-2xl md:p-12">
+      <span aria-hidden="true" class="pointer-events-none absolute -left-10 top-1/4 h-64 w-64 rounded-full bg-blue-600/25 blur-3xl"></span>
+      <h2 class="relative text-3xl font-bold text-white">Mis <span class="text-sky-400">habilidades</span></h2>
+      <p class="relative mt-4 max-w-2xl text-sm leading-relaxed text-slate-300">Estoy aprendiendo desarrollo web con maquetación semántica, Grid y Flexbox, y diseño responsivo. Cada proyecto me ayuda a mejorar mi código y mi criterio visual.</p>
+      <ul class="relative mt-8 grid gap-5 md:grid-cols-2">
+        <li>
+          <p class="flex justify-between text-sm"><span>HTML semántico</span><span>85%</span></p>
+          <span class="mt-1 block h-1.5 rounded-full bg-slate-700"><span class="block h-full w-[85%] rounded-full bg-gradient-to-r from-blue-600 to-sky-400"></span></span>
+        </li>
+        <li>
+          <p class="flex justify-between text-sm"><span>CSS (Grid y Flexbox)</span><span>80%</span></p>
+          <span class="mt-1 block h-1.5 rounded-full bg-slate-700"><span class="block h-full w-[80%] rounded-full bg-gradient-to-r from-blue-600 to-sky-400"></span></span>
+        </li>
+        <li>
+          <p class="flex justify-between text-sm"><span>Tailwind CSS</span><span>75%</span></p>
+          <span class="mt-1 block h-1.5 rounded-full bg-slate-700"><span class="block h-full w-[75%] rounded-full bg-gradient-to-r from-blue-600 to-sky-400"></span></span>
+        </li>
+        <li>
+          <p class="flex justify-between text-sm"><span>Bootstrap 5</span><span>70%</span></p>
+          <span class="mt-1 block h-1.5 rounded-full bg-slate-700"><span class="block h-full w-[70%] rounded-full bg-gradient-to-r from-blue-600 to-sky-400"></span></span>
+        </li>
+        <li>
+          <p class="flex justify-between text-sm"><span>Git y GitHub</span><span>65%</span></p>
+          <span class="mt-1 block h-1.5 rounded-full bg-slate-700"><span class="block h-full w-[65%] rounded-full bg-gradient-to-r from-blue-600 to-sky-400"></span></span>
+        </li>
+        <li>
+          <p class="flex justify-between text-sm"><span>Análisis de datos</span><span>60%</span></p>
+          <span class="mt-1 block h-1.5 rounded-full bg-slate-700"><span class="block h-full w-[60%] rounded-full bg-gradient-to-r from-blue-600 to-sky-400"></span></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="rounded-3xl bg-[#0b1426] p-8 shadow-2xl md:p-12">
+      <h2 class="text-center text-3xl font-bold text-white">Mis <span class="text-sky-400">proyectos</span></h2>
+      <p class="mt-2 text-center text-sm text-slate-400">Algunos retos en los que he aplicado análisis, pensamiento crítico y programación.</p>
+      <ul class="mt-8 grid gap-5 md:grid-cols-2">
+        <li>
+          <a href="https://github.com/valeryco/Rueda-Libre" target="_blank" rel="noopener noreferrer" class="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-400">
+            <article class="h-full overflow-hidden rounded-xl border border-slate-700/60 bg-slate-900/70 transition hover:-translate-y-1 hover:border-sky-500/60 hover:shadow-[0_0_20px_rgba(29,155,240,.3)]">
+              <p aria-hidden="true" class="grid h-32 place-items-center bg-gradient-to-br from-emerald-700 to-teal-400 text-5xl">🚲</p>
+              <section class="p-4">
+                <h3 class="font-semibold text-white">Rueda Libre</h3>
+                <p class="mt-1 text-xs text-slate-400">Sitio web de alquiler de bicicletas con portada en Grid, galería de rutas, reservas y menú móvil.</p>
+                <p class="mt-3 flex flex-wrap items-center gap-2 text-[11px] text-cyan-300"><span class="rounded-full border border-cyan-700 px-2 py-0.5">HTML</span><span class="rounded-full border border-cyan-700 px-2 py-0.5">CSS</span><span class="rounded-full border border-cyan-700 px-2 py-0.5">Bootstrap</span><span class="ml-auto text-sky-400">Ver en GitHub</span></p>
+              </section>
+            </article>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Felipe022911/Proyect" target="_blank" rel="noopener noreferrer" class="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-400">
+            <article class="h-full overflow-hidden rounded-xl border border-slate-700/60 bg-slate-900/70 transition hover:-translate-y-1 hover:border-sky-500/60 hover:shadow-[0_0_20px_rgba(29,155,240,.3)]">
+              <p aria-hidden="true" class="grid h-32 place-items-center bg-gradient-to-br from-amber-600 to-rose-500 text-5xl">🍽️</p>
+              <section class="p-4">
+                <h3 class="font-semibold text-white">Hide Meal</h3>
+                <p class="mt-1 text-xs text-slate-400">Proyecto en equipo de cocina oculta. No solo entregamos platillos de autor; llevamos una atmósfera clandestina, maridaje sensorial y narrativa culinaria hasta tu mesa.</p>
+                <p class="mt-3 flex flex-wrap items-center gap-2 text-[11px] text-cyan-300"><span class="rounded-full border border-cyan-700 px-2 py-0.5">Equipo</span><span class="rounded-full border border-cyan-700 px-2 py-0.5">GitHub</span><span class="ml-auto text-sky-400">Ver en GitHub</span></p>
+              </section>
+            </article>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/valeryco/IA" target="_blank" rel="noopener noreferrer" class="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-400">
+            <article class="h-full overflow-hidden rounded-xl border border-slate-700/60 bg-slate-900/70 transition hover:-translate-y-1 hover:border-sky-500/60 hover:shadow-[0_0_20px_rgba(29,155,240,.3)]">
+              <p aria-hidden="true" class="grid h-32 place-items-center bg-gradient-to-br from-indigo-700 to-fuchsia-500 text-5xl">🤖</p>
+              <section class="p-4">
+                <h3 class="font-semibold text-white">IA</h3>
+                <p class="mt-1 text-xs text-slate-400">Proyecto de inteligencia artificial.</p>
+                <p class="mt-3 flex flex-wrap items-center gap-2 text-[11px] text-cyan-300"><span class="rounded-full border border-cyan-700 px-2 py-0.5">IA</span><span class="rounded-full border border-cyan-700 px-2 py-0.5">Python</span><span class="ml-auto text-sky-400">Ver en GitHub</span></p>
+              </section>
+            </article>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/valeryco/Algoritmia" target="_blank" rel="noopener noreferrer" class="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-sky-400">
+            <article class="h-full overflow-hidden rounded-xl border border-slate-700/60 bg-slate-900/70 transition hover:-translate-y-1 hover:border-sky-500/60 hover:shadow-[0_0_20px_rgba(29,155,240,.3)]">
+              <p aria-hidden="true" class="grid h-32 place-items-center bg-gradient-to-br from-sky-700 to-cyan-400 text-5xl">🧩</p>
+              <section class="p-4">
+                <h3 class="font-semibold text-white">Algoritmia</h3>
+                <p class="mt-1 text-xs text-slate-400">Ejercicios y algoritmos.</p>
+                <p class="mt-3 flex flex-wrap items-center gap-2 text-[11px] text-cyan-300"><span class="rounded-full border border-cyan-700 px-2 py-0.5">Algoritmos</span><span class="rounded-full border border-cyan-700 px-2 py-0.5">Código</span><span class="ml-auto text-sky-400">Ver en GitHub</span></p>
+              </section>
+            </article>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Formación -->
+    <section id="formacion" class="rounded-3xl bg-[#0b1426] p-8 shadow-2xl md:p-12">
+      <h2 class="text-3xl font-bold text-white">Mi <span class="text-sky-400">formación</span></h2>
+      <article class="mt-6 rounded-xl border border-slate-700/60 bg-slate-900/70 p-5">
+        <h3 class="font-semibold text-white">Ingeniera Biológica</h3>
+        <p class="text-sm text-sky-300">Universidad Nacional de Colombia</p>
+      </article>
+      <article class="mt-6 rounded-xl border border-slate-700/60 bg-slate-900/70 p-5">
+        <h3 class="font-semibold text-white">Introducción a la gestión de</h3>
+        <p class="text-sm text-sky-300">Universidad Nacional de Colombia</p>
+      </article>
+      <article class="mt-6 rounded-xl border border-slate-700/60 bg-slate-900/70 p-5">
+        <h3 class="font-semibold text-white">Fundamentos de la Ingeniería de Requisitos</h3>
+        <p class="text-sm text-sky-300">Pontificia Universidad Católica del Perú</p>
+      </article>
+      <article class="mt-6 rounded-xl border border-slate-700/60 bg-slate-900/70 p-5">
+        <h3 class="font-semibold text-white">Análisis de datos para profesionales</h3>
+        <p class="text-sm text-sky-300">Universidad EAFIT</p>
+      </article>
+    </section>
+
+    <!-- Contacto -->
+    <footer id="contacto" class="rounded-3xl bg-[#0b1426] p-8 text-center shadow-2xl md:p-12">
+      <h2 class="text-3xl font-bold text-white">Hablemos</h2>
+      <p class="mt-2 text-sm text-slate-400">¿Tienes un proyecto o una idea? Escríbeme.</p>
+      <p class="mt-6 flex flex-wrap justify-center gap-3">
+        <a href="mailto:correasalazarvaleria@gmail.com" class="rounded-full bg-gradient-to-r from-blue-600 to-sky-400 px-6 py-2.5 text-sm font-semibold text-white shadow-[0_0_20px_rgba(29,155,240,.5)] hover:brightness-110">Enviar correo</a>
+        <a href="https://github.com/valeryco" target="_blank" rel="noopener noreferrer" class="rounded-full border border-slate-500 px-6 py-2.5 text-sm font-semibold hover:border-sky-400 hover:text-sky-300">GitHub</a>
+        <a href="https://www.linkedin.com/in/valeria-correa-salazar" class="rounded-full border border-slate-500 px-6 py-2.5 text-sm font-semibold hover:border-sky-400 hover:text-sky-300">LinkedIn</a>
+      </p>
+    </footer>
+
+  </main>
+</body>
+</html>
